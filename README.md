@@ -7,6 +7,7 @@
 - `src/main.cpp`: 最小 C++ 示例，直接调用 `FBroHsInitPro` / `FBroRunMessageLoop` / `FBroShutdown`，并用 CEF 的 `CefBrowserHost::CreateBrowser` 创建浏览器窗口。
 - `CMakeLists.txt`: 配置 FBro 头文件、`FBrowserCEF3lib.lib`、`FBrowserVIP.lib`、`libcef.lib`、`libcef_dll_wrapper.lib`。
 - `build.ps1`: 一键 CMake x64 Debug 构建脚本。
+- [`FBro接口盘点.md`](./FBro接口盘点.md): `FBrowserCEF3lib.dll`、`FBrowserVIP.dll`、C++ 头文件、回调、窗口句柄和消息机制的扫描结论。
 - `deps`: FBro/CEF 依赖目录，不进入 Git 仓库。请从 GitHub Releases 下载 `deps.zip` 并解压到项目根目录。
 
 ## 获取依赖
